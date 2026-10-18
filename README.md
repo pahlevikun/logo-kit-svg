@@ -163,6 +163,7 @@ This skill repo splits **its own branding** from the **agent reference shelf**:
 |------|------|
 | `examples/logo-kit-svg/` | **This skill’s branding** — README embed, `profile.svg`, four base SVGs + `kit/` (concepts, platform, social, …). |
 | `examples/applydiff/` | Reference run (anti-patterns + fixed four files). |
+| `examples/mdz/` | Second reference run: four review rounds, each cut on a measured defect (grid-like hash, double frame, phone-like page). |
 | `library/` | **Study shelf for agents** — curated trademark/OSS SVGs, `catalog.json`, `gallery.html`, etc. Never ship these into target repos. |
 
 **Target repos** you run the skill against still use `assets/` for their four README SVGs ([references/deliverables.md](references/deliverables.md)).

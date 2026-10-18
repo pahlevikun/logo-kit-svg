@@ -1,0 +1,15 @@
+{
+  "title": "mdz — brand presentation",
+  "sections": [
+    {
+      "heading": "Primary mark",
+      "body": "512px panel icon: folded page with muted lines and primary markdown hash.",
+      "assets": ["assets/icon.svg", "assets/icon-animated.svg"]
+    },
+    {
+      "heading": "README hero",
+      "body": "904×256 banner with mark, wordmark, tagline, and CLI / MCP / EXTENSION pills.",
+      "assets": ["assets/logo.svg", "assets/logo-animated.svg"]
+    }
+  ]
+}

@@ -32,6 +32,22 @@
         "brief": "examples/logo-kit-svg/brief.md"
       },
       "tags": ["skill-meta", "vector-kit", "workshop-teal", "script-qa"]
+    },
+    {
+      "id": "mdz",
+      "title": "mdz",
+      "industry": "developer-tools",
+      "product_story": "any web page to LLM-ready markdown — CLI, MCP server and browser extension",
+      "category": "readme_hero_suite",
+      "has_animation": true,
+      "paths": {
+        "icon": "examples/mdz/icon.svg",
+        "icon_animated": "examples/mdz/icon-animated.svg",
+        "logo": "examples/mdz/logo.svg",
+        "logo_animated": "examples/mdz/logo-animated.svg",
+        "brief": "examples/mdz/brief.md"
+      },
+      "tags": ["markdown", "cli", "mcp", "browser-extension", "folded-page", "hash"]
     }
   ]
 }
