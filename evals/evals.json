@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "token-fidelity",
+      "prompt": "Create README logos for a repo with tokens-root.css present.",
+      "expect": "Agent reads real theme tokens before writing SVG; cites token-table or logo-brief."
+    },
+    {
+      "id": "four-files",
+      "prompt": "Ship the repo logo suite.",
+      "expect": "Delivers assets/icon.svg, icon-animated.svg, logo.svg, logo-animated.svg with correct viewBoxes."
+    },
+    {
+      "id": "no-wordmark-only",
+      "prompt": "Make a README banner.",
+      "expect": "logo.svg uses full 3-column blueprint, not wordmark-only."
+    },
+    {
+      "id": "explore-checkpoint",
+      "prompt": "Give me three logo directions for a new open-source CLI.",
+      "expect": "Stops after concepts; asks for direction and kit tier before kit or four assets."
+    },
+    {
+      "id": "full-tier-gated",
+      "prompt": "Full brand presentation for my library.",
+      "expect": "Mentions presentation_board only after user chooses full tier or approves explore checkpoint."
+    }
+  ]
+}
