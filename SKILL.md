@@ -19,13 +19,13 @@ Companion for identity-only exploration: [logo-design-skill](https://github.com/
 | **explore** | “directions”, “concepts”, “three options”, empty brand | Stop after concept summary; require pick + kit tier |
 | **mark_only** | User supplies `assets/brand-mark.svg` | Skip concepting for column-1; still run kit + 4 assets |
 
-Checkpoint rules: [references/process.md](references/process.md). **Base vs additional outputs:** [references/deliverables.md](references/deliverables.md). Kit tiers: [references/brand-kit-tiers.md](references/brand-kit-tiers.md).
+Checkpoint rules: [references/process.md](references/process.md). **Base vs additional outputs:** [references/deliverables.md](references/deliverables.md). Kit tiers: [references/brand-kit-tiers.md](references/brand-kit-tiers.md). **Strategy, metaphor, visual mode, and board rhythm (before concepts; for any board):** [references/brand-strategy-and-board.md](references/brand-strategy-and-board.md).
 
 ## Phase 0: Learn context (always)
 
 Full rules: [references/context-gathering.md](references/context-gathering.md).
 
-1. **Facts first** — Read `README.md`, theme files, and any path or URL the user gave (article, `CONTEXT.md`, ADR, internal doc). Grep for `--bg`, `--accent`, existing `assets/`. Large repo → run **`super-codebase-learner`**, then continue.
+1. **Facts first** — Read `README.md`, theme files, and any path or URL the user gave (article, `CONTEXT.md`, ADR, internal doc). Grep for `--bg`, `--accent`, existing `assets/`. Large repo → run **`super-codebase-learner`**, then continue. **Approved-asset check:** if a `final/` folder, a user-named approved file, or a liked attachment exists, it outranks `assets/` drafts and `sample/` explorations for geometry, colour, copy, and animation — record the winning source in the brief ([references/brand-strategy-and-board.md](references/brand-strategy-and-board.md) §7).
 2. **Record citations** in [templates/logo-brief.md](templates/logo-brief.md) (source file per token, doc links). Missing facts → **unknown — looked, not found** — never guess hex or tagline.
 3. **Decisions second** — Only ask what facts cannot answer: kit tier, mode, concept pick, tone. One numbered question + **recommended answer** + why; wait (super-challenge-me cadence).
 4. **Escalate peers when stuck** (invoke the skill; do not reimplement it here):
@@ -94,7 +94,9 @@ Optional: if the thread will span sessions, summarize decisions in chat (wordmar
 5. **Semantic red/green hunks** — only when column 3 mode is `diff-hunks`; otherwise use accent/muted hierarchy without `-`/`+` rows.
 6. **Pill width** — `chars × 7.2 + 32`; ≥24px gutter before column 3 (`x=456`).
 7. **Library samples** — study `library/svg/` via search; optional copies under `assets/kit/library-samples/` for concept/tiles collages only — never paste library art into the four deliverables ([references/banner-column-3.md](references/banner-column-3.md), [library/TRADEMARKS.md](library/TRADEMARKS.md)).
-8. **Render + visually inspect** — mandatory `render_qa.py` paths before done.
+8. **Render + visually inspect** — mandatory `render_qa.py` paths before done. Applies to boards and print surfaces (letterhead) too: render, read the PNG, then claim done.
+9. **Final-asset precedence + replica fidelity** — an approved `final/` asset or liked attachment is the source of truth; replicate its geometry and animation faithfully, never silently substitute a similar mark or a different motion ([references/brand-strategy-and-board.md](references/brand-strategy-and-board.md) §7).
+10. **Brand name ≠ legal name** — logos and public surfaces carry the brand name only; a legal entity name (e.g. `PT. …`) appears only as a small line on formal print (letterhead, invoice) and is read from a user document, never invented (§9 there).
 
 ## Phases
 
@@ -115,7 +117,9 @@ Document 3–5 clichés to avoid ([references/library-guide.md](references/libra
 
 ### 3. Concepts
 
-8–12 one-line ideas → **3** distinct marks (black-first symbols). Save drafts under `assets/kit/concepts/`.
+**Strategy first** (explore/full/board, or whenever positioning is not already settled): fill the strategy + core-metaphor fields in the brief and pick a visual mode per [references/brand-strategy-and-board.md](references/brand-strategy-and-board.md) §1–3 before generating ideas. Mode picks treatment, never colours.
+
+8–12 one-line ideas → **3** distinct marks (black-first symbols). Name a concept method for each surviving direction (monogram+meaning, product action, metaphor fusion, negative space, construction geometry — combine at most two; §2 there). A direction that cannot state its core metaphor in one line is cut before the checkpoint. Save drafts under `assets/kit/concepts/`.
 
 At checkpoint (explore), build previews **before** final four assets:
 
@@ -181,7 +185,7 @@ python3 scripts/validate_kit.py --kit-dir assets/kit
 
 ### 7. Adversarial pass (recommended)
 
-Apply [references/context-gathering.md](references/context-gathering.md) § Interrogate pass. Fix **Act on** items before scripts. User asked for **`interrogate`** → run that skill on the deliverable set; otherwise one rigorous self-review.
+Apply [references/context-gathering.md](references/context-gathering.md) § Interrogate pass plus the anti-generic checklist and copy-length discipline in [references/brand-strategy-and-board.md](references/brand-strategy-and-board.md) §5–6. Fix **Act on** items before scripts. User asked for **`interrogate`** → run that skill on the deliverable set; otherwise one rigorous self-review.
 
 ### 8. QA gate (mandatory)
 
@@ -221,7 +225,8 @@ Details: [references/xml-and-qa-gate.md](references/xml-and-qa-gate.md). **Read*
 
 ## Done when
 
-- Context sources cited in brief; no invented palette.
+- Context sources cited in brief; no invented palette, copy, contact, or legal name. Strategy + core metaphor recorded (explore/full/board); approved-asset source recorded, or `none — drafting fresh`.
+- Board/presentation artifacts (when shipped) follow the rhythm and panel discipline in [references/brand-strategy-and-board.md](references/brand-strategy-and-board.md) §4; lockup taste checkpoint recorded when a secondary-word lockup was iterated.
 - Four assets pass `svg_audit_repo_logo.py` and visual PNG QA.
 - README contains `assets/logo-animated.svg` and `assets/icon.svg`.
 - Kit tier + opted-in previews/platform match [references/deliverables.md](references/deliverables.md) and [references/brand-kit-tiers.md](references/brand-kit-tiers.md).

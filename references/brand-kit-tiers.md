@@ -10,6 +10,8 @@ User picks **lite**, **medium**, or **full** after concepts (or once in one_shot
 | **medium** | lite + `preview_sheet_lite.html` (must embed concepts, platform, social) + **concept-sheet.svg** + **tiles-board-directions.svg** + **tiles-board.svg** |
 | **full** | medium + `presentation-board.html` from `presentation_board.py` |
 
+Board composition for medium/full artifacts (concept sheet, tiles boards, presentation board, and any user-requested brand-kit board SVG) follows the rhythm and panel discipline in [brand-strategy-and-board.md](brand-strategy-and-board.md) §4: vary quiet/functional/emotional/technical/atmospheric/detailed panels, keep text within the §5 budget, and reuse the identical shipped mark in every panel. This adds no new mandatory tier files.
+
 ### One-shot build
 
 ```bash

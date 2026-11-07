@@ -30,6 +30,7 @@ REQUIRED_PATHS = [
     "references/deliverables.md",
     "references/banner-column-3.md",
     "references/token-table.md",
+    "references/brand-strategy-and-board.md",
     "templates/logo-brief.md",
     "templates/grill-round.md",
     "templates/brand-guidelines.md",
