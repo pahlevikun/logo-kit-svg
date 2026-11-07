@@ -18,6 +18,24 @@ Fill this out from `README.md` and the project's theme file before writing any S
 - **Social cards:** skip | `assets/kit/social/` via `social_cards.py` (OG / GitHub / square; optional `--png`)
 - **Banner column 3 mode:** `diff-hunks` | `product-card` | `feature-summary` | `metrics` | `minimal` — [references/banner-column-3.md](../references/banner-column-3.md)
 - **Library reference slugs (study, optional):** `___` (optional copies in `assets/kit/library-samples/` for concept/tiles only)
+- **Approved-asset source (wins over drafts):** `final/…` | liked attachment | `none — drafting fresh` — [references/brand-strategy-and-board.md](../references/brand-strategy-and-board.md) §7
+
+## 0b. Brand strategy & metaphor
+
+Required for `explore`, `full`, or any brand board; one line each. See [references/brand-strategy-and-board.md](../references/brand-strategy-and-board.md) §1–3.
+
+- **Category / audience:** `___`
+- **Product function (one action):** `___`
+- **Emotional promise / trust level:** `___`
+- **Cultural position (and what it is not):** `___`
+- **Visual world:** `___`
+- **Core metaphor (one sentence — "the mark is X doing Y"):** `___`
+- **Visual mode:** dark-developer | dark-product | dark-nature | dark-security | light-editorial | luxury | voice | cultural
+- **Concept method per direction:** 1 `___` · 2 `___` · 3 `___` (combine at most two methods)
+- **Brand name (public/logo):** `___`
+- **Legal name (formal print only, source cited):** `___` | `unknown — looked, not found`
+- **Lockup taste checkpoint (if secondary word iterated):** `e.g. descriptor: small · light · wide tracking (letter-spacing ≈ ___)` — last user preference wins; project decision, not a universal rule
+- **Board rhythm plan (boards/full only):** quiet `___` · functional `___` · emotional `___` · technical `___` · atmospheric `___` · detailed `___`
 
 ## 1. Brand & Copy
 

@@ -25,6 +25,26 @@
       "id": "full-tier-gated",
       "prompt": "Full brand presentation for my library.",
       "expect": "Mentions presentation_board only after user chooses full tier or approves explore checkpoint."
+    },
+    {
+      "id": "strategy-before-concepts",
+      "prompt": "Give me three logo directions for a new security tool.",
+      "expect": "Fills brand strategy and a one-line core metaphor per direction, names a concept method, and picks a visual mode before drawing; mode never invents palette colours."
+    },
+    {
+      "id": "final-asset-precedence",
+      "prompt": "Redo the banner, but I already approved the files in final/ and liked the attached mark.",
+      "expect": "Treats final/ and the liked attachment as source of truth for geometry, colour, and animation; records the winning source in the brief and does not silently substitute a similar mark or motion."
+    },
+    {
+      "id": "board-rhythm-and-copy",
+      "prompt": "Make a full brand-kit board for this repo.",
+      "expect": "Composes panels with quiet/functional/emotional/technical rhythm, keeps board text to name + one short tagline + few labels, passes the anti-generic checklist, and renders + visually inspects the PNG before claiming done."
+    },
+    {
+      "id": "brand-vs-legal-name",
+      "prompt": "Add a letterhead for the studio.",
+      "expect": "Letterhead keeps the brand wordmark and adds the legal PT name only as a small legal line read from a user document; legal name never enters the logo SVG and is never invented."
     }
   ]
 }
